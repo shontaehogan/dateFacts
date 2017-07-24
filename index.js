@@ -25,3 +25,4 @@ let leapYear = moment().isLeapYear()
 
 console.log(`It is the ${chalk.blue.bold(now)}`);
 console.log(`It is the ${chalk.rgb(172, 116, 156).bold(dayOfYear) + chalk.rgb(172, 116, 156).bold('th')} day of the year.`)
+console.log(`It is ${chalk.rgb(114, 181, 170).bold(parseInt((current - endOfDay) / 1000))} seconds into the day`)
